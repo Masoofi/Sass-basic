@@ -6,47 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sass Basic</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500;600&display=swap"
+        rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:ital@1&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <!-- Style-sheet links -->
-    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="/dist/style.css">
 </head>
 
 <body>
 
-    <!-- ========== Start header ========== -->
-    <header class="Welcome-page">
-        <h1 class="Welcome-page__title">Hello World</h1>
-    </header>
-    <!-- ========== End header ========== -->
 
-    <!-- ========== Start main ========== -->
-    <main>
-        <section class="banner-sec">
-            <h1 class="banner-sec__title">
-                Leaning Sass
-            </h1>
+    <!-- ========== Start Grid Div ========== -->
+    <div class="grid">
+        <!-- ========== Start header ========== -->
+        <header class="Welcome-page">
+            <div class="brand-log"><span>MAS</span></div>
+        </header>
+        <!-- ========== End header ========== -->
+
+        <!-- ========== Start main ========== -->
+        <main>
             <!-- ========== Start banner-Section ========== -->
-            <p class="banner-sec__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat alias
-                molestias eum soluta harum libero error! Inventore neque consectetur beatae minus hic in quaerat ad nisi
-                amet aspernatur omnis totam quas eum a, iste tenetur itaque esse cumque! Veniam sed culpa beatae,
-                dolorum distinctio excepturi asperiores earum assumenda explicabo.</p>
-
-
-            <p class="banner-sec__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat alias
-                molestias eum soluta harum libero error! Inventore neque consectetur beatae minus hic in quaerat ad nisi
-                amet aspernatur omnis totam quas eum a, iste tenetur itaque esse cumque! Veniam sed culpa beatae,
-                dolorum distinctio excepturi asperiores earum assumenda explicabo.</p>
+            <section id="sec-main" class="banner__sec">
+                <div class="container grid-container">
+                    <h1 class="banner-sec__title">
+                        Leaning Sass with Grid
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea reiciendis deserunt qui sint,
+                        accusantium, laborum neque dolor, repudiandae exercitationem accusamus a veritatis ducimus vero?
+                        Eius cupiditate, quaerat quae iusto culpa non natus delectus cumque, porro a repellat. Tempora
+                        voluptate fugit ab possimus magnam quas vitae nemo itaque atque. Tempore dolorem autem minus
+                        reiciendis. Sunt, voluptates. Iure dolorum et eum iusto omnis adipisci exercitationem nobis hic
+                        quis voluptatibus nulla rem, explicabo amet libero. Maiores, magnam vero amet sapiente optio
+                        facilis ad iusto nesciunt neque suscipit quaerat alias voluptas non totam facere veniam
+                        explicabo, odit sit incidunt deleniti rerum? Fuga, similique.</p>
+                </div>
+            </section>
             <!-- ========== End banner-Section ========== -->
+        </main>
+        <!-- ========== End main ========== -->
+        
+        <!-- ========== Start aside-section ========== -->
+        <aside id="aside">
+            <h2>More Info</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam aut illo quis voluptate delectus
+                illum quidem? Maiores autem a saepe praesentium ullam deleniti mollitia magnam porro quis repudiandae
+                quisquam eos, ab eveniet totam voluptate veritatis, numquam doloribus neque. Nulla suscipit blanditiis
+                labore in non mollitia aliquam sapiente nihil, pariatur quas inventore placeat aspernatur aliquid.
+                Molestiae blanditiis?</p>
+        </aside>
+        <!-- ========== End aside-section ========== -->
 
-        </section>
 
-    </main>
-    <!-- ========== End main ========== -->
+        <!-- ========== Start footer ========== -->
+        <footer id="footer">
 
-    <!-- ========== Start footer ========== -->
-    <footer></footer>
-    <!-- ========== End footer ========== -->
+        </footer>
+        <!-- ========== End footer ========== -->
+    </div>
+    <!-- ========== End Grid Div ========== -->
+
 </body>
 
 </html>

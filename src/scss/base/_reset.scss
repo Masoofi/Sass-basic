@@ -1,0 +1,10 @@
+@use '../util/fonts.scss' as *;
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $font-rubik;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
